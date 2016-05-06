@@ -42,3 +42,22 @@ Speed: BETWEEN if the range is large or scanning column is not indexed.
 Depend on the indexed column, some situations IN might outperform BETWEEN in term of speed.
 
 > This is performance comparision between unique scan (IN) and range scan (BETWEEN)
+
+# SQL Basic
+
+### JOIN
+
+SQL Joins Diagram
+
+![SQL Joins](http://www.codeproject.com/KB/database/Visual_SQL_Joins/Visual_SQL_JOINS_orig.jpg "SQL Joins Diagram")
+
+# PostgreSQL Syntax
+
+### ILIKE 
+ 
+Act like LIKE operator, but it is case-insensitive. Symbol: ~~*, !~~*
+
+### UNION 
+
+The UNION operator removes all duplicate rows unless the UNION ALL is used.
+
