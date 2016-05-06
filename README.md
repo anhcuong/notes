@@ -1,0 +1,2 @@
+# notes
+All about programming
